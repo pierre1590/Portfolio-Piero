@@ -9,7 +9,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-   
+    
 
 }
 
@@ -21,9 +21,9 @@
     left: 15%;
     width: 70%;
     box-shadow:1px 3px 5px #fff;
-    border-radius:  5%;
+    border-radius:  2%;
     background-color: #000;
-    opacity: 0.9;
+    opacity: 0.85;
     
 }
 

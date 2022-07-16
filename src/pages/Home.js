@@ -18,7 +18,7 @@ export const Home = () => {
                     <h1 style={{fontSize:'3.5rem'}}>
                         Who am I?
                     </h1>
-                    <p>
+                    <p> 
                        👋 Hi, my name's Piero Sabino and I'm a Full-stack web developer (💻) with a passion for creating beautiful and functional websites. I have a passion for learning new technologies. I'm currently looking for a position in the field of web development.</p>
                 </div>
             </div>
