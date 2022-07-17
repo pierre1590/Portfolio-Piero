@@ -17,8 +17,10 @@ export const Footer = () => {
               <a
                 className="btn btn-outline-light btn-floating m-1 instagram"
                 style={{ backgroundColor: "#ac2bac" }}
-                href="#!"
-                role="button"
+                href="https://www.instagram.com/p137ru590/?hl=it"
+                role="button" 
+                rel="noreferrer"
+                target="_blank"
                
               >
                 <MDBIcon fab icon="instagram" />
@@ -27,7 +29,9 @@ export const Footer = () => {
               <a
                 className="btn btn-outline-light btn-floating m-1 linkedin"
                 style={{ backgroundColor: "#0082ca" }}
-                href="#!"
+                href="https://www.linkedin.com/in/pierosabino/"
+                target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 <MDBIcon fab icon="linkedin-in" />
@@ -36,7 +40,9 @@ export const Footer = () => {
               <a
                 className="btn btn-outline-light btn-floating m-1 github"
                 style={{ backgroundColor: "#333333" }}
-                href="#!"
+                href="https://github.com/pierre1590"
+                target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 <MDBIcon fab icon="github" />
