@@ -1,0 +1,23 @@
+
+
+/* Instagram icon */
+.mb-4 .instagram:hover{
+    color: #f07;
+    transform: scale(1.1);
+    box-shadow: 0 0 0.2rem 0.2rem #fff;
+}
+
+/* Linkedin icon */
+.mb-4 .linkedin:hover {
+    color: #01f;
+    transform: scale(1.1);
+    box-shadow: 0 0 0.2rem 0.2rem #fff;
+}
+
+/* Github icon */
+.mb-4 .github:hover {
+    color: #000;
+    transform: scale(1.1);
+    box-shadow: 0 0 0.2rem 0.2rem #fff;
+}
+

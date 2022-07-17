@@ -4,22 +4,23 @@ import {Home} from "./pages/Home";
 import {Skills} from "./pages/Skills";
 import {Projects} from "./pages/Projects";
 import {Contact} from "./pages/Contact";
+import {Footer} from "./components/Footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/css/styles.css';
 
 function App() {
   return (
-    <div className="App main-container">
+    <><div className="App main-container">
       <NavBar />
       <Router>
         <Routes>
-          <Route path="/skills" element={<Skills/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Router>
-    </div>
+    </div><Footer /></>
   );
 }
 
