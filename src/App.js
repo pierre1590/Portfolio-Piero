@@ -12,6 +12,7 @@ function App() {
   return (
     <><div className="App main-container">
       <NavBar />
+     
       <Router>
         <Routes>
           <Route path="/skills" element={<Skills />} />

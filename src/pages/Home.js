@@ -8,8 +8,9 @@ import '../../src/css/styles.css';
 export const Home = () => {
     return (
         <>
-            
+           
             <Container fluid className="main-container" >
+            
             <div className="row profile">
                 <div className="col-md-2 image-profile">
                     <Image src={Piero} style={{width:'380px',height:'320px',borderRadius:'50%', marginTop:'30px'}} alt="Image profile" fluid />

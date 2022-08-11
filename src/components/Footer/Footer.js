@@ -60,6 +60,9 @@ export const Footer = () => {
             >
               Piero Sabino
             </a>
+           <div>
+              <a href="https://www.iubenda.com/privacy-policy/21039963" target="_blank" title="Privacy Policy" content="Privacy Policy" rel="noreferrer">Privacy Policy</a>
+           </div>
           </div>
         </MDBFooter>
       </>
