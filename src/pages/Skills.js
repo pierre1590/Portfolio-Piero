@@ -3,11 +3,11 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
-export const Skills = (
-    ) => {
+export const Skills = () => {
+
 return (
         <>
-            <Container fluid  style={{textAlign:'center',marginTop:'8%',marginLeft:'5%',padding:20}}>
+            <Container fluid  style={{textAlign:'center',marginTop:'8%',marginLeft:'5%',padding:20, overflowY:'auto' }}>
                 <Row md={3}>
                     <Col>
                         <CardItem title="HTML" description="Hypertext Markup Language" link="https://www.w3.org/TR/html/" />
