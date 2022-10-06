@@ -18,7 +18,7 @@ export const Projects = () => {
                                 <Card style={{width: "30em",height: "32em",borderRadius:20,margin:5}}>
                                 {item.image ?  (
                                     <Card.Img variant="top" src={item.image} style={{borderRadius:20,marginTop:5,height: 220,width:300,alignSelf:'center'}}/>
-                                ) : (<Card.Img variant="top" src={NotAvailable} style={{borderRadius:20,marginTop:5,height: 220,width:300,alignSelf:'center'}}/>
+                                ) : (<Card.Img variant="top" src={NotAvailable} style={{borderRadius:20,marginTop:5,height: 200,width:200,alignSelf:'center'}}/>
                                 )}
                                     <Card.Body>
                                         <Card.Title>{item.title}</Card.Title>
