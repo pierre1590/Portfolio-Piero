@@ -58,7 +58,7 @@ body {
 @media screen and (max-width: 300px) {
     .main-container {
         height: 150vh;
-        overflow: auto;
+        overflow: scroll;
     }
     .profile{
         margin-top: 10%;
@@ -73,7 +73,7 @@ body {
 @media screen and (max-width: 900px) {
     .main-container {
         height: 170vh;
-        overflow: auto;
+        overflow: scroll;
     }
     .profile{
         margin-top: 10%;
