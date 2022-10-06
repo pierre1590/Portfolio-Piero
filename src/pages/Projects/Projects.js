@@ -28,7 +28,6 @@ export const Projects = () => {
                                         </Card.Text>
                                         <div style={{display:'flex', flexDirection:'row',alignItems: 'center',alignSelf:'center'}}>
                                             <Button variant="primary" href={item.link} target="_blank" >Go to the app</Button>
-
                                             <Button variant="primary" href={item.github} target="_blank" style={{marginLeft:10}}>View code</Button>
                                         </div>
                                         

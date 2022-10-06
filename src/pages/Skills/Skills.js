@@ -7,7 +7,7 @@ export const Skills = () => {
 
 return (
         <>
-            <Container fluid  style={{textAlign:'center',marginTop:'2%',marginLeft:'5%',padding:20, overflowY: 'scroll' }}>
+            <Container fluid  style={{textAlign:'center',marginTop:'2%',marginLeft:'3%',padding:20, overflowY: 'scroll' }}>
                 <Row md={3} style={{marginTop:5}}>
                     <Col>
                         <CardItem title="HTML" description="Hypertext Markup Language" link="https://www.w3.org/TR/html/" />
