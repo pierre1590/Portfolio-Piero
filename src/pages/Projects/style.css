@@ -1,0 +1,19 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.card{
+    text-align:'center';
+    margin: 10%;
+    margin-top:2%;
+    margin-left:3%;
+    padding:20;
+    align-self: center;
+}
+

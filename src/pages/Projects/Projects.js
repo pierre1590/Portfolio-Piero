@@ -1,8 +1,9 @@
-import {Progress} from "../components/Progress/Progress";
+import {Progress} from "../../components/Progress/Progress";
 import React, {useState} from "react";
-import { Data } from "../data";
+import { Data } from "../../data";
 import {Container,Row,Col,Card,Button} from "react-bootstrap";
-import NotAvailable from "../assets/images/ImageNotAvailable.jpg";
+import NotAvailable from "../../assets/images/ImageNotAvailable.jpg";
+import './style.css';
 
 
 export const Projects = () => {
@@ -11,17 +12,17 @@ export const Projects = () => {
     return (
         <>
             {items &&  (
-                <Container fluid style={{textAlign:'center',marginTop:'2%',marginLeft:'3%',padding:20, overflowY: 'scroll',alignSelf:'center' }}>
+                <Container fluid  className="container">
                     <Row md={3} style={{marginTop:10}}>
                         {items.map((item) => (
                             <Col>
-                                <Card style={{width: "30em",height: "32em",borderRadius:20,margin:5}}>
+                                <Card  className="card" style={{borderRadius:20}}>
                                 {item.image ?  (
                                     <Card.Img variant="top" src={item.image} style={{borderRadius:20,marginTop:5,height: 220,width:300,alignSelf:'center'}}/>
                                 ) : (<Card.Img variant="top" src={NotAvailable} style={{borderRadius:20,marginTop:5,height: 200,width:200,alignSelf:'center'}}/>
                                 )}
                                     <Card.Body>
-                                        <Card.Title>{item.title}</Card.Title>
+                                        <Card.Title style={{textAlign:'center'}}>{item.title}</Card.Title>
                                         <Card.Text>
                                             {item.description}
                                         </Card.Text>

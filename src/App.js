@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Route,Routes} from "react-router-dom";
 import { NavBar } from "./components/Navbar/NavBar";
-import {Home} from "./pages/Home";
-import {Skills} from "./pages/Skills";
-import {Projects} from "./pages/Projects";
-import {Contact} from "./pages/Contact";
+import {Home} from "./pages/Home/Home";
+import {Skills} from "./pages/Skills/Skills";
+import {Projects} from "./pages/Projects/Projects";
+import {Contact} from "./pages/Contact/Contact";
 import {Footer} from "./components/Footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/css/styles.css';

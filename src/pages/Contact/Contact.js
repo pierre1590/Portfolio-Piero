@@ -1,4 +1,4 @@
-import {Progress} from "../components/Progress/Progress";
+import {Progress} from "../../components/Progress/Progress";
 
 export const Contact = () => {
     return (

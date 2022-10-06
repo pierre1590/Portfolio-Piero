@@ -1,7 +1,7 @@
 import {  Container } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
-import Piero from '../../src/assets/images/Piero.jpg';
-import '../../src/css/styles.css';
+import Piero from '../../assets/images/Piero.jpg';
+import '../../css/styles.css';
 
     
 
@@ -9,10 +9,9 @@ export const Home = () => {
     return (
         <>
            
-            <Container fluid className="main-container" >
-            
-            <div className="row profile">
-                <div className="col-md-2 image-profile">
+            <Container fluid  >
+            <div className="row profile" style={{marginTop:'10em'}}e>
+                <div className="col-md-2">
                     <Image src={Piero} style={{width:'380px',height:'320px',borderRadius:'50%', marginTop:'30px'}} alt="Image profile" fluid />
                 </div>
                 <div className="col-md-9 description" >
