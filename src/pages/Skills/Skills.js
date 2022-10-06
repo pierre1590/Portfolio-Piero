@@ -8,7 +8,7 @@ export const Skills = () => {
 return (
         <>
             <Container fluid  style={{textAlign:'center',marginTop:'2%',marginLeft:'3%',padding:20, overflowY: 'scroll' }}>
-                <Row md={3} style={{marginTop:5}}>
+                <Row md={3} style={{marginTop:5,textAlign:'justify'}}>
                     <Col>
                         <CardItem title="HTML" description="Hypertext Markup Language" link="https://www.w3.org/TR/html/" />
                     </Col>
@@ -19,7 +19,7 @@ return (
                         <CardItem title="JavaScript" description="JavaScript is a high-level, interpreted programming language that makes it easier to use than other programming languages." link="https://www.javascript.com/" />
                     </Col>
                 </Row>
-                <Row md={3} style={{marginTop:5}}>
+                <Row md={3} style={{marginTop:5,textAlign: 'justify'}}>
                     <Col>
                         <CardItem title="React.js" description="A JavaScript library for building user interfaces." link="https://reactjs.org/" />
                     </Col>
@@ -30,7 +30,7 @@ return (
                         <CardItem title="Express.js" description="Fast, unoptimized, minimalist web framework for Node.js." link="https://expressjs.com/" />
                     </Col>
                 </Row>
-                <Row md={3} style={{marginTop:5}}>
+                <Row md={3} style={{marginTop:5,textAlign: 'justify'}}>
                     <Col>
                         <CardItem title="Bootstrap" description="Bootstrap is a free and open-source toolkit for developing with HTML, CSS, and JS." link="https://getbootstrap.com/" />
                     </Col>
@@ -41,7 +41,7 @@ return (
                         <CardItem title="MongoDB" description="MongoDB is a document-oriented database program that uses JSON-like documents to store data." link="https://www.mongodb.com/" />
                     </Col>
                 </Row>
-                <Row md={3} style={{marginTop:5}}>
+                <Row md={3} style={{marginTop:5,textAlign:'justify'}}>
                     <Col>
                         <CardItem title="PHP" description="PHP is a server-side scripting language designed for web development." link="https://www.php.net/" />
                     </Col>

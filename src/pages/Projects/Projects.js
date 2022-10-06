@@ -23,7 +23,7 @@ export const Projects = () => {
                                 )}
                                     <Card.Body>
                                         <Card.Title style={{textAlign:'center'}}>{item.title}</Card.Title>
-                                        <Card.Text>
+                                        <Card.Text style={{textAlign:'justify'}}>
                                             {item.description}
                                         </Card.Text>
                                         <div style={{display:'flex', flexDirection:'row',alignItems: 'center',alignSelf:'center'}}>
