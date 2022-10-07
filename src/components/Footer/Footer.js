@@ -68,12 +68,19 @@ export const Footer = () => {
             className="text-center p-3"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)",marginBottom:5 }}
           >
-            © {year} Copyright:
+           
             <a className="text-white" href="mailto:piero.sa@icloud.com"
               style={{marginLeft:5,textDecoration:'none'}}
             >
               Piero Sabino
             </a>
+            {' '}
+            &copy; {year} 
+           <div>
+          
+            
+             Created with  <MDBIcon icon="heart" className="text-danger" /> and <MDBIcon fab icon="react" size="2x" style={{color:'#0ff',marginLeft:5,backgroundColor:'#000',height:'32px'}}/>
+           </div>
            <div>
               <a href="https://www.iubenda.com/privacy-policy/21039963" target="_blank" title="Privacy Policy" content="Privacy Policy" rel="noreferrer">Privacy Policy</a>
            </div>
