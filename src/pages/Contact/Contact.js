@@ -8,9 +8,6 @@ import {IoLogoWhatsapp} from 'react-icons/io5';
 export const Contact = () => {
   
 
- 
-
-
   return (
     <>
       <Container className="contact-container">
@@ -69,7 +66,7 @@ export const Contact = () => {
             <p className="contact-text">
                 If you want to chat, send me a message on Whatsapp
             </p>
-            {/*Open whatsapp */}
+            
             
             
             <a
