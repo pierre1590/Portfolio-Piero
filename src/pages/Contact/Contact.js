@@ -7,26 +7,9 @@ import {IoLogoWhatsapp} from 'react-icons/io5';
 
 export const Contact = () => {
   //Create a contact form that shows errors or success messages after submission
-  const [validated, setValidated] = useState(false);
-  const [show, setShow] = useState(false);
-  const [showError, setShowError] = useState(false);
-  const [showSuccess, setShowSuccess] = useState(false);
 
-  const handleSubmit = (event) => {
-    const form = event.currentTarget;
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
-      setShowError(true);
-      setShowSuccess(false);
-    } else {
-      event.preventDefault();
-      event.stopPropagation();
-      setShowSuccess(true);
-      setShowError(false);
-    }
-    setValidated(true);
-  };
+ 
+
 
   return (
     <>
@@ -34,7 +17,7 @@ export const Contact = () => {
       <h1>Get in touch</h1>
         <Row>
         <Col md={6} className="contact-col">
-            <Form noValidate validated={validated} onSubmit={handleSubmit}>
+            <Form noValidate >
               <FloatingLabel
                 controlId="floatingInput"
                 label="Name"
