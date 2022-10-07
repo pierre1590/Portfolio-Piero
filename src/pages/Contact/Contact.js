@@ -10,7 +10,7 @@ export const Contact = () => {
   return (
     <>
       <Container className="contact-container">
-        <h1>Get in touch</h1>
+        <h1 className="contact-title">Get in touch</h1>
         <Row>
           <Col md={6} className="contact-col">
             <Form noValidate>
@@ -32,8 +32,7 @@ export const Contact = () => {
                 <Form.Control
                   required
                   type="email"
-                  placeholder="
-    Email"
+                  placeholder="Email"
                 />
                 <Form.Control.Feedback type="invalid">
                   Please provide a valid email.
