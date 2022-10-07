@@ -1,14 +1,18 @@
 
-/* Instagram icon */
-.mb-4 .instagram{
-    background-color: #f07;
+/* Instagram icon  */
+.mb-4 .instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    
 }
 
+ 
 .mb-4 .instagram:hover{
     font-size: 12;
-    color: #f07;
+    background: #fff;
     transform: scale(1.1);
-    box-shadow: 0 0 0.2rem 0.2rem #fff;
+    color: #fd5949;
+    transition: ease-in-out;
+    box-shadow: 0 0 0.2rem #fff;
 }
 
 /* Linkedin icon */
@@ -21,6 +25,8 @@
     color: #07e;
     transform: scale(1.1);
     box-shadow: 0 0 0.2rem 0.2rem #fff;
+    background: #fff;
+    transition: ease-in-out;
 }
 
 /* Twitter icon */
@@ -34,6 +40,7 @@
     transform: scale(1.1);
     box-shadow: 0 0 0.2rem 0.2rem #fff;
     background-color: #fff;
+    transition: ease-in-out;
 }
 
 /* Github icon */
@@ -45,5 +52,6 @@
     color: #000;
     transform: scale(1.1);
     box-shadow: 0 0 0.2rem 0.2rem #fff;
+    transition: ease-in-out;
 }
 
