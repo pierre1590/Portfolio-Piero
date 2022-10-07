@@ -1,4 +1,4 @@
-import {useState} from 'react';
+
 import {Col,Row,Container,FloatingLabel,Form,Button} from 'react-bootstrap';
 import {MDBIcon} from 'mdb-react-ui-kit';
 import './style.css';
@@ -6,7 +6,7 @@ import {IoLogoWhatsapp} from 'react-icons/io5';
 
 
 export const Contact = () => {
-  //Create a contact form that shows errors or success messages after submission
+  
 
  
 
