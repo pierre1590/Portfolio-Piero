@@ -1,7 +1,7 @@
 import {Col,Row,Container,FloatingLabel,Form,Button} from 'react-bootstrap';
 import {MDBIcon} from 'mdb-react-ui-kit';
 import './style.css';
-import IoLogoWhatsapp from 'react-icons/io5';
+
 
 
 export const Contact = () => {
@@ -75,7 +75,7 @@ export const Contact = () => {
                 className="contact-link"
                 >
                
-                <IoLogoWhatsapp className="contact-icon" />
+                {/* <IoLogoWhatsapp className="contact-icon" /> */}
                 +39 339 599 7631
                 
             </a>
