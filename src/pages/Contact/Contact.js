@@ -65,15 +65,7 @@ export const Contact = () => {
               If you want to chat, send me a message on Whatsapp
             </p>
             
-            <a
-              href="https://wa.me/+393395997631"
-              target="_blank"
-              rel="noreferrer"
-              className="contact-link"
-            >
-               
-              +39 339 599 7631
-            </a>
+           
           </Col>
         </Row>
       </Container>
