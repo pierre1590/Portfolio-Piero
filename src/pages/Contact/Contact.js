@@ -1,6 +1,6 @@
 import {Col,Row,Container,FloatingLabel,Form,Button} from 'react-bootstrap';
 import {MDBIcon} from 'mdb-react-ui-kit';
-import {FaWhatsapp} from 'react-icons/fa';
+
 import './style.css';
 
 
@@ -72,7 +72,7 @@ export const Contact = () => {
               className="contact-link"
             >
               <Button variant="primary" >
-                <FaWhatsapp/>
+              
                   +39 339 599 7631
                 
               </Button>
