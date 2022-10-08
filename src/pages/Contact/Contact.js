@@ -61,8 +61,8 @@ export const Contact = () => {
           <Col md={6} className="contact-col">
             <p className="contact-text">
               If you want to chat, send me a message on {<br />}
-              <FaWhatsapp className="whatsapp" /> Whatsapp or{" "}
-              <FaTelegramPlane className="telegram" /> Telegram.
+               Whatsapp or{" "}
+               Telegram.
             </p>
             <div classname="button-container">
             <a
