@@ -60,7 +60,7 @@ export const Contact = () => {
           </Col>
           <Col md={6} className="contact-col">
             <p className="contact-text">
-              If you want to chat, send me a message on {<br />}
+              If you want to chat, send me a message on 
                Whatsapp or Telegram.
             </p>
             <div classname="button-container">
