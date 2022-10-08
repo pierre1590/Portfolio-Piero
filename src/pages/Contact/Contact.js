@@ -11,9 +11,7 @@ export const Contact = () => {
   const [sendName, setSendName] = useState('');
   const [sendEmail, setSendEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [send, setSend] = useState(false);
-  const [error, setError] = useState(false);
-  const [open, setOpen] = useState(false);
+  
 
   const form = useRef();
 
