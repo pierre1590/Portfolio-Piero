@@ -34,6 +34,7 @@ export const Contact = () => {
                   required
                   type="email"
                   placeholder="Email"
+                  
                 />
                 <Form.Control.Feedback type="invalid">
                   Please provide a valid email.
@@ -49,7 +50,8 @@ export const Contact = () => {
                   required
                   as="textarea"
                   placeholder="Message"
-                  style={{ height: "100px" }}
+                  style={{ height: "100px"}}
+                 
                 />
                 <Form.Control.Feedback type="invalid">
                   Please provide a valid message.

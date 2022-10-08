@@ -1,4 +1,3 @@
-import {Progress} from "../../components/Progress/Progress";
 import React, {useState} from "react";
 import { Data } from "../../data";
 import {Container,Row,Col,Card,Button} from "react-bootstrap";
@@ -8,6 +7,9 @@ import './style.css';
 
 export const Projects = () => {
     const [items,setItems] = useState(Data);
+    
+
+
 
     return (
         <>

@@ -38,4 +38,20 @@ export const Data = [
         "link": "https://pieroshopapp.herokuapp.com/",
         "github": "https://github.com/pierre1590/MERN_E-commerce",
     },
+    {
+        "id": 6,
+        "title": "News app",
+        "description": "This is a news app that uses the News API to search for news. It uses React Native.",
+        "image": "https://i.ibb.co/w4gbxWF/IMG-0229.png",
+        "link": "https://github.com/pierre1590/News",
+        "github": "https://github.com/pierre1590/News",
+    },
+    {
+        "id": 7,
+        "title": "Ecommerce app",
+        "description": "This is an ecommerce app to sell cherries online. It uses React Native.",
+        "image": "https://i.ibb.co/dMgdT2t/IMG-0193.jpg",
+        "link": "https://github.com/pierre1590/Cherry",
+        "github": "https://github.com/pierre1590/Cherry",
+    }
 ]
