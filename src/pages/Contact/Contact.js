@@ -1,7 +1,7 @@
 import {Col,Row,Container,FloatingLabel,Form,Button} from 'react-bootstrap';
 import {MDBIcon} from 'mdb-react-ui-kit';
 import './style.css';
-import {FaWhatsapp} from 'react-icons/fa';
+
 
 
 export const Contact = () => {
