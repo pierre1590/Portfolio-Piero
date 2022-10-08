@@ -1,11 +1,11 @@
 .contact-container{
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
     padding: 0 1rem;
     background-color: grey;
     border-radius: 20px;
-    max-width: 82%;
+    max-width: 70%;
     width: 450vh;
     height: 55vh;   
 }
@@ -50,4 +50,35 @@
     margin: 0 1rem;
 }
 
+/* Media Queries */
 
+/* iphone SE */
+@media screen and (min-width: 320px){
+    .contact-container{
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0 1rem;
+        background-color: grey;
+        border-radius: 20px; 
+        max-width: 90%;
+        width: 450vh;
+        height: 55vh;
+    }
+}
+
+
+/* Desktop query */
+@media screen and (max-width: 1024px){
+    .contact-container{
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0 1rem;
+        background-color: grey;
+        border-radius: 20px;
+        max-width: 85%;
+        width: 850vh;
+        height: 110vh;   
+    }
+}

@@ -118,7 +118,7 @@ export const Contact = () => {
             <p className="contact-text">
               If you want to chat, send me a message on Whatsapp or Telegram.
             </p>
-            <div classname="button-container">
+            <div className="button-container">
               <a
                 href="https://wa.me/+393395997631"
                 target="_blank"
@@ -136,7 +136,7 @@ export const Contact = () => {
                 <Button variant="primary">@Pierre90</Button>
               </a>
             </div>
-            {/*if message sent successfulli shows a message otherwise error with modal */}
+           
             
           </Col>
         </Row>
