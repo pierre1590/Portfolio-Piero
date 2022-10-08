@@ -1,6 +1,6 @@
 import {Col,Row,Container,FloatingLabel,Form,Button} from 'react-bootstrap';
 import {MDBIcon} from 'mdb-react-ui-kit';
-import {FaTelegramPlane,FaWhatsapp} from 'react-icons/fa';
+
 
 import './style.css';
 
@@ -61,8 +61,7 @@ export const Contact = () => {
           <Col md={6} className="contact-col">
             <p className="contact-text">
               If you want to chat, send me a message on {<br />}
-               Whatsapp or{" "}
-               Telegram.
+               Whatsapp or Telegram.
             </p>
             <div classname="button-container">
             <a
