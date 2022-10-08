@@ -8,6 +8,8 @@ import {Footer} from "./components/Footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/css/styles.css';
 
+
+
 function App() {
   return (
     <><div className="App main-container">

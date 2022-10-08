@@ -1,13 +1,54 @@
+import {useRef, useState} from 'react';
 import {Col,Row,Container,FloatingLabel,Form,Button} from 'react-bootstrap';
 import {MDBIcon} from 'mdb-react-ui-kit';
-
-
+import emailjs from '@emailjs/browser';
 import './style.css';
 
 
 
+
 export const Contact = () => {
-  
+  const [sendName, setSendName] = useState('');
+  const [sendEmail, setSendEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [send, setSend] = useState(false);
+  const [error, setError] = useState(false);
+  const [open, setOpen] = useState(false);
+
+  const form = useRef();
+
+  const handleName = (e) => {
+    setSendName(e.target.value);
+  };
+
+  const handleEmail = (e) => {
+    setSendEmail(e.target.value);
+  };
+
+  const handleMessage = (e) => {
+    setMessage(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(
+      'service_qneygn8',
+      'template_phm0ett',
+      form.current,
+      `${process.env.REACT_APP_PUBLIC_KEY}`,
+    )
+      .then((response) => {
+        console.log('Message sent successfully', response.text);
+      })
+      .catch((err) => {
+        console.log('Message failed to send', err.text);
+      });
+        setSendName('');
+        setSendEmail('');
+        setMessage('');
+  };
+
+
 
   return (
     <>
@@ -15,13 +56,20 @@ export const Contact = () => {
         <h1 className="contact-title">Get in touch</h1>
         <Row>
           <Col md={6} className="contact-col">
-            <Form noValidate>
+            <Form ref={form} noValidate onSubmit={handleSubmit}>
               <FloatingLabel
                 controlId="floatingInput"
                 label="Name"
                 className="mb-3"
               >
-                <Form.Control required type="text" placeholder="Name" />
+                <Form.Control
+                  required
+                  type="text"
+                  value={sendName}
+                  placeholder="Name"
+                  name="name"
+                  onChange={handleName}
+                />
                 <Form.Control.Feedback type="invalid">
                   Please provide a valid name.
                 </Form.Control.Feedback>
@@ -31,7 +79,14 @@ export const Contact = () => {
                 label="Email"
                 className="mb-3"
               >
-                <Form.Control required type="email" placeholder="Email" />
+                <Form.Control
+                  required
+                  type="email"
+                  name="email"
+                  value={sendEmail}
+                  placeholder="Email"
+                  onChange={handleEmail}
+                />
                 <Form.Control.Feedback type="invalid">
                   Please provide a valid email.
                 </Form.Control.Feedback>
@@ -45,15 +100,18 @@ export const Contact = () => {
                 <Form.Control
                   required
                   as="textarea"
+                  name="message"
                   placeholder="Message"
                   style={{ height: "100px" }}
+                  value={message}
+                  onChange={handleMessage}
                 />
                 <Form.Control.Feedback type="invalid">
                   Please provide a valid message.
                 </Form.Control.Feedback>
               </FloatingLabel>
-              <Button variant="primary" type="submit" className="contact-btn">
-                Submit
+              <Button variant="primary" type="submit" className="contact-btn" >
+                Send mail
                 <MDBIcon icon="paper-plane" className="ms-2" />
               </Button>
             </Form>
@@ -69,7 +127,7 @@ export const Contact = () => {
                 rel="noreferrer"
                 className="contact-link"
               >
-                <Button variant="primary">+39 339 599 7631</Button>
+                <Button variant="success">+39 339 599 7631</Button>
               </a>
               <a
                 href="https://t.me/Pierre90"
@@ -80,6 +138,8 @@ export const Contact = () => {
                 <Button variant="primary">@Pierre90</Button>
               </a>
             </div>
+            {/*if message sent successfulli shows a message otherwise error with modal */}
+            
           </Col>
         </Row>
       </Container>
