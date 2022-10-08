@@ -1,5 +1,6 @@
 import {Col,Row,Container,FloatingLabel,Form,Button} from 'react-bootstrap';
 import {MDBIcon} from 'mdb-react-ui-kit';
+import {FaTelegramPlane,FaWhatsapp} from 'react-icons/fa';
 
 import './style.css';
 
@@ -30,12 +31,7 @@ export const Contact = () => {
                 label="Email"
                 className="mb-3"
               >
-                <Form.Control
-                  required
-                  type="email"
-                  placeholder="Email"
-                  
-                />
+                <Form.Control required type="email" placeholder="Email" />
                 <Form.Control.Feedback type="invalid">
                   Please provide a valid email.
                 </Form.Control.Feedback>
@@ -50,8 +46,7 @@ export const Contact = () => {
                   required
                   as="textarea"
                   placeholder="Message"
-                  style={{ height: "100px"}}
-                 
+                  style={{ height: "100px" }}
                 />
                 <Form.Control.Feedback type="invalid">
                   Please provide a valid message.
@@ -65,20 +60,28 @@ export const Contact = () => {
           </Col>
           <Col md={6} className="contact-col">
             <p className="contact-text">
-              If you want to chat, send me a message on Whatsapp
+              If you want to chat, send me a message on {<br />}
+              <FaWhatsapp className="whatsapp" /> Whatsapp or{" "}
+              <FaTelegramPlane className="telegram" /> Telegram.
             </p>
+            <div classname="button-container">
             <a
               href="https://wa.me/+393395997631"
               target="_blank"
               rel="noreferrer"
               className="contact-link"
             >
-              <Button variant="primary" >
-              
-                  +39 339 599 7631
-                
-              </Button>
+              <Button variant="primary" >+39 339 599 7631</Button>
             </a>
+            <a
+              href="https://t.me/Pierre90"
+              target="_blank"
+              rel="noreferrer"
+              className="contact-link"
+            >
+              <Button variant="primary">@Pierre90</Button>
+            </a>
+            </div>
            
           </Col>
         </Row>

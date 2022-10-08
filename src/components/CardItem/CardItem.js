@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 export  const CardItem = ({title, description, link}) => {
     return (
         <>
-            <Card style={{ width: '25rem', borderRadius:20,margin:5 }}>
+            <Card style={{ width: '23rem', borderRadius:20,margin:5 }}>
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>

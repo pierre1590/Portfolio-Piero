@@ -1,12 +1,13 @@
 .contact-container{
     margin-top: 8%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10;
+    margin-right: 10%;
     padding: 0 1rem;
     background-color: grey;
     border-radius: 20px;
-    width: 50%;
-    height: 50%;
+    max-width: 82%;
+    width: 450vh;
+    height: 55vh;   
 }
 
  .contact-title{
@@ -29,13 +30,42 @@
     align-self: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+  
+   
 }
 
 .contact-col{
     text-align: center;
     font-size: 1.6;
-    
 }
+
+.whatsapp{
+    color: #0f1;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.telegram{
+    color: #07f;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.contact-link{
+    margin: 0 1rem;
+}
+
 
 
 
