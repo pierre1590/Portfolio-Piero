@@ -60,28 +60,26 @@ export const Contact = () => {
           </Col>
           <Col md={6} className="contact-col">
             <p className="contact-text">
-              If you want to chat, send me a message on 
-               Whatsapp or Telegram.
+              If you want to chat, send me a message on Whatsapp or Telegram.
             </p>
             <div classname="button-container">
-            <a
-              href="https://wa.me/+393395997631"
-              target="_blank"
-              rel="noreferrer"
-              className="contact-link"
-            >
-              <Button variant="primary" >+39 339 599 7631</Button>
-            </a>
-            <a
-              href="https://t.me/Pierre90"
-              target="_blank"
-              rel="noreferrer"
-              className="contact-link"
-            >
-              <Button variant="primary">@Pierre90</Button>
-            </a>
+              <a
+                href="https://wa.me/+393395997631"
+                target="_blank"
+                rel="noreferrer"
+                className="contact-link"
+              >
+                <Button variant="primary">+39 339 599 7631</Button>
+              </a>
+              <a
+                href="https://t.me/Pierre90"
+                target="_blank"
+                rel="noreferrer"
+                className="contact-link"
+              >
+                <Button variant="primary">@Pierre90</Button>
+              </a>
             </div>
-           
           </Col>
         </Row>
       </Container>
