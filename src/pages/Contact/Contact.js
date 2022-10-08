@@ -64,7 +64,7 @@ export const Contact = () => {
             <p className="contact-text">
               If you want to chat, send me a message on Whatsapp
             </p>
-            <FaWhatsapp className="contact-icon" />
+            
             <a
               href="https://wa.me/+393395997631"
               target="_blank"
