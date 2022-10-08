@@ -1,5 +1,5 @@
 import {useRef, useState} from 'react';
-import {Col,Row,Container,FloatingLabel,Form,Button} from 'react-bootstrap';
+import {Col,Row,Container,FloatingLabel,Form,Button,Modal,Alert} from 'react-bootstrap';
 import {MDBIcon} from 'mdb-react-ui-kit';
 import emailjs from '@emailjs/browser';
 import './style.css';
@@ -11,7 +11,11 @@ export const Contact = () => {
   const [sendName, setSendName] = useState('');
   const [sendEmail, setSendEmail] = useState('');
   const [message, setMessage] = useState('');
-  
+  const [show, setShow] = useState(false);
+  const [send,setSend] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   const form = useRef();
 
@@ -35,21 +39,22 @@ export const Contact = () => {
       form.current,
       `${process.env.REACT_APP_PUBLIC_KEY}`,
     )
-      .then((response) => {
-        console.log('Message sent successfully', response.text);
-      })
-      .catch((err) => {
-        console.log('Message failed to send', err.text);
-      });
-        setSendName('');
-        setSendEmail('');
-        setMessage('');
+      try{
+        setSend(true);
+        handleShow();
+      }catch(error){
+        console.log(error);
+      }
+      setSendName('');
+      setSendEmail('');
+      setMessage('');
   };
 
 
 
   return (
     <>
+    
       <Container className="contact-container">
         <h1 className="contact-title">Get in touch</h1>
         <Row>
@@ -114,6 +119,37 @@ export const Contact = () => {
               </Button>
             </Form>
           </Col>
+          {send ? (
+              <Modal
+                show={show}
+                onHide={handleClose}
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title>Message sent</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <Alert variant="success">
+                  Message sent successfully
+                  <MDBIcon icon="check-circle" className="ms-2" />
+                  </Alert>
+                </Modal.Body>
+              </Modal>
+            ) : (
+              <Modal
+                show={show}
+                onHide={handleClose}
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title>Message not sent</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <Alert variant="danger">
+                    Message not sent, try again.
+                    <MDBIcon icon="times-circle" className="ms-2" />
+                  </Alert>
+                </Modal.Body>
+              </Modal>
+            )}
           <Col md={6} className="contact-col">
             <p className="contact-text">
               If you want to chat, send me a message on Whatsapp or Telegram.
@@ -136,8 +172,6 @@ export const Contact = () => {
                 <Button variant="primary">@Pierre90</Button>
               </a>
             </div>
-           
-            
           </Col>
         </Row>
       </Container>
