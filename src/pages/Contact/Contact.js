@@ -70,7 +70,7 @@ export const Contact = () => {
               rel="noreferrer"
               className="contact-link"
             >
-                <FaWhatsapp  />
+               
               +39 339 599 7631
             </a>
           </Col>
