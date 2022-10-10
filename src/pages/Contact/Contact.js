@@ -38,7 +38,7 @@ export const Contact = () => {
       'service_qneygn8',
       'template_phm0ett',
       form.current,
-     `${process.env.REACT_APP_PUBLIC_KEY}`
+     `process.env.REACT_APP_PUBLIC_KEY`
     )
       try{
         setSend(true);
