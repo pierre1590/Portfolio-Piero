@@ -3,6 +3,7 @@ import {Col,Row,Container,FloatingLabel,Form,Button,Modal,Alert} from 'react-boo
 import {MDBIcon} from 'mdb-react-ui-kit';
 import emailjs from '@emailjs/browser';
 import './style.css';
+import env from 'react-dotenv';
 
 
 
@@ -38,7 +39,7 @@ export const Contact = () => {
       'service_qneygn8',
       'template_phm0ett',
       form.current,
-     `process.env.REACT_APP_PUBLIC_KEY`
+     `${env.REACT_APP_PUBLIC_KEY}`
     )
       try{
         setSend(true);
