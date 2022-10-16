@@ -1,2 +1,2 @@
 web: npm start
-heroku ps:scale web=1
+ps: scale web=1
