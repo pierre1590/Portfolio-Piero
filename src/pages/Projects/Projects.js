@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { Data } from "../../data";
+import {Text}from 'react-native';
 import {Container,Row,Col,Card,Button} from "react-bootstrap";
 import NotAvailable from "../../assets/images/ImageNotAvailable.jpg";
 import './style.css';
@@ -25,8 +26,12 @@ export const Projects = () => {
                                 )}
                                     <Card.Body>
                                         <Card.Title style={{textAlign:'center'}}>{item.title}</Card.Title>
-                                        <Card.Text style={{textAlign:'justify'}} numberOfLines={2} >
-                                            {item.description}
+                                        <Card.Text 
+                                            style={{textAlign:'justify'}}
+                                        >
+                                            <Text numberOfLines={2}>
+                                                {item.description}
+                                            </Text>
                                         </Card.Text>
                                         <div style={{display:'flex', flexDirection:'row',alignItems: 'center',alignSelf:'center'}}>
                                             <Button variant="primary" href={item.link} target="_blank" >Go to the app</Button>
