@@ -53,5 +53,13 @@ export const Data = [
         "image": "https://i.ibb.co/dMgdT2t/IMG-0193.jpg",
         "link": "https://github.com/pierre1590/Cherry",
         "github": "https://github.com/pierre1590/Cherry",
-    }
+    },
+    {
+        "id": 8,
+        "title": "Office Planner",
+        "description": "The app allows you to plan the commitments of a day. It uses React Native.",
+        "image": "https://i.ibb.co/bWzWM97/Phone3.png",
+        "link": "https://play.google.com/store/apps/details?id=com.pierre1590.OfficePlanner",
+    "github": "https://github.com/pierre1590/OfficePlanner",
+    },
 ]
