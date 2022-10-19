@@ -9,5 +9,5 @@
 </div>
 <h1 align="center"> PIERO SABINO </h1>
 <p align="center">BIO<br/>
-    :hands:, I'm Piero Sabino, I live in Puglia, Italy; and I have always been passionate about ICT and in recent years<br/> I have decided to enroll online courses such as <a href="https://www.start2impact.it/"> Start2impact</a> to become a Full Stack Developer and build mobile apps.<br/>
+    :wave:, I'm Piero Sabino, I live in Puglia, Italy; and I have always been passionate about ICT and in recent years<br/> I have decided to enroll online courses such as <a href="https://www.start2impact.it/"> Start2impact</a> to become a Full Stack Developer and build mobile apps.<br/>
 </p>
