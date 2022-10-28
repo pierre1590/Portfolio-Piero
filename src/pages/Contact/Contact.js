@@ -44,15 +44,25 @@ export const Contact = () => {
       try{
         setSend(true);
         handleShow();
+        validateForm();
       }catch(error){
         console.log(error);
+      
       }
       setSendName('');
       setSendEmail('');
       setMessage('');
   };
 
+  const validateForm = () => {
+    if (sendName === '' || sendEmail === '' || message === '') {
+      return false;
+    } else {
+      return true;
+    }
+  };
 
+ 
 
   return (
     <>
@@ -61,7 +71,7 @@ export const Contact = () => {
         <h1 className="contact-title">Get in touch</h1>
         <Row>
           <Col md={6} className="contact-col">
-            <Form ref={form} noValidate onSubmit={handleSubmit}>
+            <Form ref={form}   onSubmit={handleSubmit}>
               <FloatingLabel
                 controlId="floatingInput"
                 label="Name"
@@ -75,9 +85,7 @@ export const Contact = () => {
                   name="name"
                   onChange={handleName}
                 />
-                <Form.Control.Feedback type="invalid">
-                  Please provide a valid name.
-                </Form.Control.Feedback>
+                
               </FloatingLabel>
               <FloatingLabel
                 controlId="floatingInput"
@@ -92,9 +100,7 @@ export const Contact = () => {
                   placeholder="Email"
                   onChange={handleEmail}
                 />
-                <Form.Control.Feedback type="invalid">
-                  Please provide a valid email.
-                </Form.Control.Feedback>
+                
               </FloatingLabel>
 
               <FloatingLabel
@@ -111,9 +117,6 @@ export const Contact = () => {
                   value={message}
                   onChange={handleMessage}
                 />
-                <Form.Control.Feedback type="invalid">
-                  Please provide a valid message.
-                </Form.Control.Feedback>
               </FloatingLabel>
               <Button variant="primary" type="submit" className="contact-btn" >
                 Send mail

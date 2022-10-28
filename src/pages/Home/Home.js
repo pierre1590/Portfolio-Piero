@@ -6,10 +6,13 @@ import '../../css/styles.css';
     
 
 export const Home = () => {
+    
+
     return (
         <>
            
             <Container fluid  >
+           
             <div className="row profile" style={{marginTop:'10em'}}>
                 <div className="col-md-2">
                     <Image src={Piero} style={{width:'380px',height:'320px',borderRadius:'50%', marginTop:'30px'}} alt="Image profile" fluid />
