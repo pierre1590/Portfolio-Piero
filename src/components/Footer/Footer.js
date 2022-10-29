@@ -14,10 +14,8 @@ export const Footer = () => {
         <MDBFooter className="bg-dark text-center text-white">
           <MDBContainer className="p-4 pb-0">
             <section className="mb-4" >
-
             <a
                 className="btn btn-outline-light btn-floating m-1 linkedin"
-              
                 href="https://www.linkedin.com/in/pierosabino/"
                 target="_blank"
                 rel="noreferrer"
@@ -25,24 +23,17 @@ export const Footer = () => {
               >
                 <MDBIcon fab icon="linkedin-in" />
               </a>
-
-
               <a
                 className="btn btn-outline-light btn-floating m-1 instagram"
-                
                 href="https://www.instagram.com/p137ru590/?hl=it"
                 role="button" 
                 rel="noreferrer"
                 target="_blank"
-               
               >
                 <MDBIcon fab icon="instagram" />
               </a>
-           
-
               <a
                 className="btn btn-outline-light btn-floating m-1 twitter"
-               
                 href="https://twitter.com/SabinoPiero"
                 target="_blank"
                 rel="noreferrer"
@@ -50,10 +41,8 @@ export const Footer = () => {
               >
                 <MDBIcon fab icon="twitter" />
               </a>
-
               <a
                 className="btn btn-outline-light btn-floating m-1 github"
-              
                 href="https://github.com/pierre1590"
                 target="_blank"
                 rel="noreferrer"
@@ -63,12 +52,10 @@ export const Footer = () => {
               </a>
             </section>
           </MDBContainer>
-
           <div
             className="text-center p-3"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)",marginBottom:5 }}
           >
-           
             <a className="text-white" href="mailto:piero.sa@icloud.com"
               style={{marginLeft:5,textDecoration:'none'}}
             >
@@ -77,9 +64,7 @@ export const Footer = () => {
             {' '}
             &copy; {year} 
            <div>
-          
-            
-             Created with  <MDBIcon icon="heart" className="text-danger" /> and <MDBIcon fab icon="react" size="2x" style={{color:'#0ff',marginLeft:5,backgroundColor:'#000',height:'32px'}}/>
+             Created with  <MDBIcon icon="heart" className="text-danger" /> and <MDBIcon fab icon="react" size="2x" style={{color:'#0ff',marginLeft:5}}/>
            </div>
            <div>
               <a href="https://www.iubenda.com/privacy-policy/21039963" target="_blank" title="Privacy Policy" content="Privacy Policy" rel="noreferrer">Privacy Policy</a>
