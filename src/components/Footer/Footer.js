@@ -64,7 +64,7 @@ export const Footer = () => {
             {' '}
             &copy; {year} 
            <div>
-             Created with  <MDBIcon icon="heart" className="text-danger" /> and <MDBIcon fab icon="react" size="2x" style={{color:'#0ff',marginLeft:5}}/>
+             Created with  <MDBIcon icon="heart" className="heart" /> and <MDBIcon fab icon="react" size="2x" style={{color:'#0ff',marginLeft:5}}/>
            </div>
            <div>
               <a href="https://www.iubenda.com/privacy-policy/21039963" target="_blank" title="Privacy Policy" content="Privacy Policy" rel="noreferrer">Privacy Policy</a>
