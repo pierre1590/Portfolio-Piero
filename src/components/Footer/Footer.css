@@ -2,6 +2,20 @@
     color: #f11;
 }
 
+.mb-4 .heart-icon{
+   background-color: #f11;
+    
+}
+
+.mb-4 .heart-icon:hover{
+    font-size: 15;
+    background: #fff;
+    transform: scale(1.1);
+    color: #f11;
+    transition: ease-in-out;
+    box-shadow: 0 0 0.2rem #fff;
+}
+
 
 /* Instagram icon  */
 .mb-4 .instagram {

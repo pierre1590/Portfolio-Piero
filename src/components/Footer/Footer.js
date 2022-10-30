@@ -50,6 +50,15 @@ export const Footer = () => {
               >
                 <MDBIcon fab icon="github" />
               </a>
+              <a
+                className="btn btn-outline-light btn-floating m-1 heart-icon"
+                href="https://www.buymeacoffee.com/pierosaB"
+                target="_blank"
+                rel="noreferrer"
+                role="button"
+              >
+                <MDBIcon fas icon="heart" />
+              </a>
             </section>
           </MDBContainer>
           <div
