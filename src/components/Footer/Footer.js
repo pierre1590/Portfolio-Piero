@@ -39,7 +39,7 @@ export const Footer = () => {
                 rel="noreferrer"
                 role="button"
               >
-                <MDBIcon fab icon="x" />
+                <icon>x</icon>
               </a>
               <a
                 className="btn btn-outline-light btn-floating m-1 github"
