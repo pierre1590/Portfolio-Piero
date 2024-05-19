@@ -47,22 +47,6 @@
     transition: ease-in-out;
 }
 
-/* Twitter icon */
-.mb-4 .x{
-    background-color: #000000;
-    color: #fff;
-    align-content: center;
-    padding: auto;
-}
-
-.mb-4 .x:hover {
-    font-size: 15;
-    color: rgb(0, 0, 0);
-    transform: scale(1.1);
-    box-shadow: 0 0 0.2rem 0.2rem #fff;
-    background-color: #fff;
-    transition: ease-in-out;
-}
 
 /* Github icon */
 .mb-4 .github{
