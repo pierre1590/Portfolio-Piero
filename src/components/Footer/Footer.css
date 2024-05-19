@@ -51,6 +51,8 @@
 .mb-4 .x{
     background-color: #000000;
     color: #fff;
+    align-content: center;
+    padding: auto;
 }
 
 .mb-4 .x:hover {
