@@ -33,13 +33,13 @@ export const Footer = () => {
                 <MDBIcon fab icon="instagram" />
               </a>
               <a
-                className="btn btn-outline-light btn-floating m-1 twitter"
+                className="btn btn-outline-light btn-floating m-1 x"
                 href="https://twitter.com/SabinoPiero"
                 target="_blank"
                 rel="noreferrer"
                 role="button"
               >
-                <MDBIcon fab icon="twitter" />
+                <MDBIcon fab icon="x" />
               </a>
               <a
                 className="btn btn-outline-light btn-floating m-1 github"

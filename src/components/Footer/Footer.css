@@ -48,13 +48,13 @@
 }
 
 /* Twitter icon */
-.mb-4 .twitter{
-    background-color: #1da1f2;
+.mb-4 .x{
+    background-color: #000000;
 }
 
-.mb-4 .twitter:hover {
+.mb-4 .x:hover {
     font-size: 15;
-    color: #0af;
+    color: rgb(0, 0, 0);
     transform: scale(1.1);
     box-shadow: 0 0 0.2rem 0.2rem #fff;
     background-color: #fff;
