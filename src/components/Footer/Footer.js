@@ -39,7 +39,7 @@ export const Footer = () => {
                 rel="noreferrer"
                 role="button"
               >
-                <icon>x</icon>
+                <p>x</p>
               </a>
               <a
                 className="btn btn-outline-light btn-floating m-1 github"
