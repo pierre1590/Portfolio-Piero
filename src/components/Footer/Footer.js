@@ -25,7 +25,7 @@ export const Footer = () => {
               </a>
               <a
                 className="btn btn-outline-light btn-floating m-1 instagram"
-                href="https://www.instagram.com/p137ru590/?hl=it"
+                href="https://www.instagram.com/piero_sabino1/"
                 role="button" 
                 rel="noreferrer"
                 target="_blank"
