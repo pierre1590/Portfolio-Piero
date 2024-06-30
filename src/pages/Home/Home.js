@@ -1,6 +1,6 @@
 import {  Container } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
-import Piero from '../../assets/images/Piero.jpeg';
+import Piero from '../../assets/images/Piero.jpg';
 import '../../css/styles.css';
 
     
