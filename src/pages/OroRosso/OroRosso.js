@@ -1,12 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './style.css'
+import { Card } from 'react-bootstrap';
 
 export default function OroRosso() {
   return (
     <>
       <div className="container2">
         <h1 className='welcome'>Welcome to <h1 className='rosso'>OroRosso</h1></h1>
+       {/*Card.Img with link */}
+        <Card.Img className='app-img' variant="top" src="https://i.ibb.co/W32LcbS/Screenshot-2024-07-18-224947.png"  />
         <p className='description-app'>
           OroRosso is an application that helps you turn your cherry harvest
           into profits by tracking companies, locations, clients, and earnings.

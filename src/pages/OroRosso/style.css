@@ -1,7 +1,6 @@
 .container2{
   max-width:85%;
   margin: 0 auto;
-  margin-top: 5%;
   padding: 10px;
   background-color:red;
   border-radius: 5%;
@@ -57,4 +56,9 @@ list-style: none;
   font-size: larger;
   font-weight: 600;
   font-size: 20px;
+}
+
+.app-img{
+  width:150px;
+  height:200px;
 }
