@@ -62,4 +62,11 @@ export const Data = [
         "link": "https://play.google.com/store/apps/details?id=com.pierre1590.OfficePlanner",
     "github": "https://github.com/pierre1590/OfficePlanner",
     },
+    {
+        "id": 9,
+        "title": "OroRosso",
+        "description": "OroRosso: Turn your cherry harvest into profits by tracking companies, locations, clients, and earnings. It uses React Native.",
+        "image": "",
+        "link": "/project/OroRosso",
+    }
 ]
