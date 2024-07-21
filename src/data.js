@@ -66,7 +66,7 @@ export const Data = [
         "id": 9,
         "title": "OroRosso",
         "description": "OroRosso: Turn your cherry harvest into profits by tracking companies, locations, clients, and earnings. It uses React Native.",
-        "image": "",
+        "image": "https://ibb.co/PY6d57B",
         "link": "/projects/OroRosso"
     }
 ]
