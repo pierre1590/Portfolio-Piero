@@ -27,6 +27,8 @@ export const Projects = () => {
                                     <Card.Body>
                                         <Card.Title style={{textAlign:'center'}}>{item.title}</Card.Title>
                                         <Card.Text 
+                                        aria-multiline
+            
                                             style={{textAlign:'justify'}}
                                         >
                                                 {item.description}   

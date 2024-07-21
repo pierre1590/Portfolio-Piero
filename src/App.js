@@ -7,6 +7,7 @@ import {Contact} from "./pages/Contact/Contact";
 import {Footer} from "./components/Footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/css/styles.css';
+import OroRosso from "./pages/OroRosso/OroRosso";
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects/OroRosso" element={<OroRosso/>} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>
