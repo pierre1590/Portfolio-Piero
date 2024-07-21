@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+h1, h2 {
+    color: #333;
+  }
+
+  ul, ol {
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  p, li {
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
