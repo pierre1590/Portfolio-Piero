@@ -7,7 +7,7 @@ export default function OroRosso() {
     <>
       <div className="container2">
         <h1 className='welcome'>Welcome to <h1 className='rosso'>OroRosso</h1></h1>
-        <p className='description'>
+        <p className='description-app'>
           OroRosso is an application that helps you turn your cherry harvest
           into profits by tracking companies, locations, clients, and earnings.
           You can easily manage and monitor all aspects of your cherry
