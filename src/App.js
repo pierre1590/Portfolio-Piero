@@ -5,7 +5,7 @@ import {Skills} from "./pages/Skills/Skills";
 import {Projects} from "./pages/Projects/Projects";
 import {Contact} from "./pages/Contact/Contact";
 import {Footer} from "./components/Footer/Footer";
-import {OroRosso} from "./pages/Projects/OroRosso"
+import OroRosso from "./pages/Projects/OroRosso"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/css/styles.css';
 
